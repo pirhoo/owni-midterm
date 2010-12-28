@@ -1,0 +1,138 @@
+/* 
+    Document   : styles
+    Created on : Oct 26, 2010, 11:44:08 AM
+    Author     : lebigjay
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {font-family: Lucida, Lucida sans, Arial, Helvetica, sans-serif; font-size: 14px;}
+span {font-family: Marcelle Script;}
+body, table, td, th, form, ul, li {margin:0px; padding: 0px;}
+ul {list-style-type: none;}
+
+#container {position: absolute; width: 990px; height: 667px; top: 0px; left: 0px; background: url(img/_fond.jpg) top left no-repeat;}
+
+#state {color:black;font-size:1.4em;font-weight:bold;height:30px;left:340px;position:absolute;text-align:center;text-transform:uppercase;top:72px;width:300px;}
+#stateForm {display: block; position: absolute; width: 140px; height: 80px; top: 80px; left: 756px;}
+#stateForm div {font-size: 0.9em;}
+
+#contribute {background:url("img/contribute.png") no-repeat scroll left top transparent;
+color:white;
+cursor:pointer;
+display:block;
+height:109px;
+left:40px;
+padding:51px 46px 33px 18px;
+position:absolute;
+text-align:center;
+top:423px;
+width:124px;}
+#contribute h2 {font-size: 1.3em; padding: 0px; margin: 0px;}
+
+#videoslab {background:url("img/videos_bg.png") no-repeat scroll 0 20px transparent;
+display:block;
+height:200px;
+left:260px;
+position:absolute;
+top:420px;
+width:670px;}
+#videoslab #caption {color:#3683C7;font-size:1.4em;padding-left:20px;}
+#videoslab #stripcontainer {padding:32px 13px;}
+
+#what {color:#2B2668;display:block;height:260px;left:40px;position:absolute;top:250px;width:200px;font-size:1.4em;}
+#what ul li {background:url("img/bullet.png") no-repeat scroll left 5px transparent;padding-left:20px;}
+
+#feedback {display: none; width: 260px; height: 266px; top: 40px; left: 40px;}
+#player {display: none; height:493px;left:180px;top:124px;width:616px;}
+#alert {display:none;height:191px;left:380px;top:220px;width:260px;}
+#help {display:none;font-size:0.9em;height:360px;left:195px;top:132px;width:590px;}
+.popup {background-color: white; position: absolute; border: 4px solid #292a67;}
+.popup_bg1 {background: url(img/popup_bg_tl.jpg) top left no-repeat; width: 196px; height: 148px; position: absolute; top: 0px; left: 0px;}
+.popup_bg2 {background: url(img/popup_bg_br.jpg) bottom right no-repeat; width: 180px; height: 145px; position: absolute; bottom: 0px; right: 0px;}
+.close {background: url(img/close.gif) top right no-repeat; width: 36px; height: 34px; position: absolute; top: 0px; right: 0px; cursor: pointer;}
+.content {position: absolute; padding: 30px 20px;}
+
+#alert #alertmessage {height: 140px;}
+
+#header {background:url("img/bagofmoney.png") no-repeat scroll left top transparent;
+color:#2B2668;
+display:block;
+height:65px;
+left:40px;
+padding-left:60px;
+position:absolute;
+top:156px;}
+#header div span {font-size: 1.4em;}
+#header #helptag {background:url("img/questionmark.png") no-repeat scroll right top transparent;cursor:pointer;display:block;font-size:0.9em;padding:5px 40px 5px 0;float: left;}
+
+#viz {display: block; position:absolute; top: 200px; left: 300px;}
+
+#feedbackForm input {width: 190px;}
+#feedbackForm textarea {width: 190px; height: 60px;}
+#feedbackForm .formlabel {font-size: 1.2em;}
+#feedbackForm .formrow {padding: 4px;}
+#feedbackForm .forminput {width: 190px;}
+#feedbackForm input.submit {width: 60px; float: right;}
+
+#figures {display: block;}
+.label {color:white;display:block;float:left;height:50px;margin:-20px 50px;padding-top:26px;text-align:center;width:115px;}
+#fdemocrat {background: url(img/label_democrates.png) top left no-repeat;}
+#frepublican {background: url(img/label_republicains.png) top left no-repeat;}
+#findependent {background: url(img/label_autres.png) top left no-repeat;}
+
+#pictos {display: block;}
+.picto {display:block;float:left;height:165px;margin:0 36px;text-align:center;width:144px;}
+.picto img {width: 144px; height: 165px;}
+
+.field {border: 1px solid black;}
+.error {border: 1px solid red;}
+
+#bjslider {display: block; width: 160px; height: 90px; position: relative;}
+#bjslider #videos {display: block; position: absolute; margin: 0px 20px; width: 120px; height: 90px; overflow: hidden;}
+#bjslider #videos ul#slider1 {position: absolute; top: 0px; left: 0px; list-style-type: none;}
+#bjslider #videos ul#slider1 li {display:block;
+float:left;
+height:70px;
+overflow:hidden;
+text-align:center;
+width:150px;}
+#bjslider #videos ul#slider1 li img { height:90px;margin-top:-10px;top:0;width:120px;}
+#bjslider #videos ul#slider1 div {width: 600px; text-align: center;}
+
+#bjslider #slider_next {display: block; position: absolute; right: 0px; top: 26px; cursor: pointer;}
+#bjslider #slider_prev {display: block; position: absolute; left: 0px; top: 26px; cursor: pointer;}
+
+#footer {left:0;position:absolute;top:607px;}
+#footer #social {display:block;left:400px;position:absolute;top:7px;width:600px;}
+#footer #social div {display:block;float:left;height:38px;}
+#footer #social div#left {
+background:url("img/social_left.png") no-repeat scroll left top transparent;
+width:16px;
+}
+#footer #social div#middle {
+background:url("img/social_bg.png") repeat-x scroll left top transparent;
+min-width:160px;
+padding:9px;
+}
+#footer #social div#right {
+background:url("img/social_right.png") no-repeat scroll left top transparent;
+width:16px;
+}
+
+#macaron {display:block;
+height:100px;
+left:431px;
+position:absolute;
+top:328px;
+width:488px;}
+#macaron div {background:url("img/macaron.png") no-repeat scroll left top transparent;
+display:none;
+height:90px;
+position:absolute;
+width:72px;}
+#macaron #mI {top: 0px; left: 430px;}
+#macaron #mD {top: 0px; left: 0px;}
+#macaron #mR {top: 0px; left: 215px;}
+
+.show {display: block;}
+.hide {display: none;}
